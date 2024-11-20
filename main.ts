@@ -176,5 +176,5 @@ scene.setBackgroundImage(img`
     `)
 Render.setViewMode(ViewMode.raycastingView)
 game.onUpdateInterval(500, function () {
-	
+    mySprite2.setPosition(randint(0, 160), randint(0, 160))
 })
